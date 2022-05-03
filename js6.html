@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>welcome to javascript</title>
+    </head>
+    <body>
+        <p id="func1">the  year is: </p>
+        <input type="submit"onclick="func()">
+        <script>
+            function func()
+            {
+                var d= new Date();
+                document.getElementById("func1").innerHTML=d.getFullYear();
+           
+            }
+        </script>
+    </body>
+</html>
